@@ -2,5 +2,6 @@ import math
 for a in range(int(input())):
     n=int(input())
     if n>0:
-        sqrt=math.sqrt(n)
-    print(sqrt)
+        sqrt=n**0.5
+        root= round(sqrt)
+    print(root)

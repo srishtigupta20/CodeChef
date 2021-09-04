@@ -1,0 +1,6 @@
+import math
+for a in range(int(input())):
+    n=int(input())
+    if n>0:
+        sqrt=math.sqrt(n)
+    print(sqrt)
